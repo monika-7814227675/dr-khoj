@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+}
+
+ body{
+        height:100vh;
+        background:url(img2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+.container{
+  width:1536px;
+  height:729.60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;  
+  
+}
+.left{
+  width: 70%;  
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.left .inner{
+  width:400px;
+  height:170px;
+  background: linear-gradient(transparent,black);
+  border-radius: 40px;
+}
+.left .inner h1{
+  color: white;
+  font-size: 60px ;
+  text-shadow: 5px 8px 15px white;
+}
+.content{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  margin-top: 260px;
+}
+.content .bt{
+ 
+  width: 90%;
+}
+.content .bt .quote1{
+  width:85%;
+  height: 100px;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s ;
+  box-shadow: 10px 10px 15px black;
+}
+.content .bt .quote1:hover{
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  box-shadow: 10px 10px 15px rgb(26, 24, 24);
+}
+.content .bt .quote2{
+  width:75%;
+  height: 100px;
+  border:none;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  background-color: white;
+  justify-content:center;
+  align-items: center;
+  margin-left: 245px;
+  transition: 0.6s ;
+  box-shadow: 10px 10px 15px black;
+}
+.content .bt .quote2:hover{
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  box-shadow: 10px 10px 15px rgb(26, 24, 24);
+}
+.right{
+  display:flex;
+  flex-wrap: column;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  width: 30%;
+}
+.research .hi{
+  width: 95%;
+  height: 120px;
+  
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.research .hi h1{
+  font-size: 54px;
+  color: white;
+  text-shadow: 5px 8px 15px white;
+}
+
+.research .bye{
+  margin:20px;
+}
+.research .bye h3{
+  font-style: italic;
+  color: white;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.buttons button{
+  width: 250px;
+  height:70px;
+  margin: 30px;
+  border-radius: 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  box-shadow: 5px 8px 15px black;
+  transition: 0.4s all ease-in-out;
+}
+.buttons button:hover{
+  width: 253px;
+  height:70px;
+  font-size:18px;
+  color: white;
+  background-color: black;
+  box-shadow:5px 8px 15px rgb(26, 24, 24) ;
+ 
+}
+.img1{
+  width: 30px;
+  height: 30px;
+}
+.img2{
+  width: 30px;
+  height: 30px;
+}
+.img3{
+  width: 30px;
+  height: 30px;
+}
